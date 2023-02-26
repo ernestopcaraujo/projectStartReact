@@ -7,7 +7,7 @@ const Hooks = () => {
 
     const changeAge = () => {
         idade = 31;
-        window.alert(idade);
+        console.log(idade);
     }
 
     const changeNewAge = () => {
@@ -15,7 +15,7 @@ const Hooks = () => {
     }
 
     useEffect(()=>{
-        window.alert("Mudou a Idade");
+        console.log("Mudou a Idade");
     });
 
     return (
