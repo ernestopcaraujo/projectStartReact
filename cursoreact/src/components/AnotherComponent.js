@@ -1,14 +1,14 @@
 const AnotherComponent = () => {
 
     const handleClick = () => {
-        window.alert("Hi Everyone !")
+        console.log("Hi Everyone !")
     }
 
     return (
         <div>
             <p>Segundo Componente</p>
             <button onClick={handleClick}>Evento de Click</button>
-            <button onClick={()=>window.alert("in line")}>Evento de Click</button>
+            <button onClick={()=>console.log("in line")}>Evento de Click</button>
         </div>
     )
 }
